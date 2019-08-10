@@ -91,7 +91,8 @@ def main():
     # run_foofoo()
     # run_hidex1()
 
-    retest.test1()
+    # retest.test1()
+    retest.test2()
 
 
 

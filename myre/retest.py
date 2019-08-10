@@ -51,3 +51,14 @@ def test1():
         print(m.groups())
 
 
+def test2():
+    mystr = 'liushan is Liushan'
+    print(re.findall(r'[Ll]iushan', mystr))
+
+    print(re.sub(r'[Ll]iushan', 'fanfan', mystr))
+
+    print(re.split(r'[Ll]iu', mystr))
+    # 原始字符串
+    print('liushan\n')
+    print(r'liushan\n')
+

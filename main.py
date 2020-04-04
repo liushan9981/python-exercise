@@ -12,6 +12,13 @@ from myclass.myproperty import run_hidex1, run_celsius
 
 from myre import retest
 
+
+from mythread.test_thread_func import test_main_thread_func
+from mythread.test_thread_func import test_main_thread_obj
+from mythread.test_thread_func import test_main_thread_subobj
+
+from mythread.test_queue import testqueue
+
 def run_myclass_c():
     """
     实例属性和类属性是不同的东西，self.name是实例属性，引用"实例.foo"时，如果该实例空间没有foo属性，则从类空间查找
@@ -92,7 +99,7 @@ def main():
     # run_hidex1()
 
     # retest.test1()
-    run_celsius()
+    testqueue()
 
 
 

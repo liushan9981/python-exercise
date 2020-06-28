@@ -18,6 +18,7 @@ from mythread.test_thread_func import test_main_thread_obj
 from mythread.test_thread_func import test_main_thread_subobj
 
 from mythread.test_queue import testqueue
+from tools.mysubprocess import test_subprocess
 
 def run_myclass_c():
     """
@@ -99,7 +100,9 @@ def main():
     # run_hidex1()
 
     # retest.test1()
-    testqueue()
+    # testqueue()
+    test_subprocess()
+
 
 
 

@@ -8,10 +8,16 @@ from myclass.subclass import Child, SubA, SubB, SubC, SubD, SubE, ChildMethod, R
 
 from myclass.wrap import run_wrap, run_wrap2
 from myclass.descriptor import run_c2, run_c3, run_foofoo
-from myclass.myproperty import run_hidex1
-from tools.mysubprocess import test_subprocess
+from myclass.myproperty import run_hidex1, run_celsius
 
 from myre import retest
+
+
+from mythread.test_thread_func import test_main_thread_func
+from mythread.test_thread_func import test_main_thread_obj
+from mythread.test_thread_func import test_main_thread_subobj
+
+from mythread.test_queue import testqueue
 
 def run_myclass_c():
     """
@@ -93,8 +99,7 @@ def main():
     # run_hidex1()
 
     # retest.test1()
-    # retest.test2()
-    test_subprocess()
+    testqueue()
 
 
 
